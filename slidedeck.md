@@ -9,7 +9,8 @@ Friyay 1
 
 ---
 
-What all will you have to do to get a job in coding?
+What will you have to do to get a job in development?
+-
 
 ___
 Interview Process
@@ -23,11 +24,9 @@ Interview Process
 ---
 Interview Process
 -
-1. Phone Screen
-2. Take-home
-3. In-person Technical Interview (could be multiple) <--
-4. Compatibility Interview
-5. Offer
+
+3. In-person Technical Interview (could be multiple)
+
 
 ___
 Technical Interview Parts
@@ -96,7 +95,7 @@ Understand the problem
 - Can you restate the question in your own words?
 - What are the inputs that go into the problem?
 - What are the outputs of the problem?
-- Can the outputs be determined from the input? (hard)
+- Can the outputs be determined from the input?
 - How should I label the pieces of data that are part of the problem?
 
 ---
@@ -167,11 +166,7 @@ Edge Cases
 - What if you have empty inputs?
 - What if you have invalid inputs?
 - What if they try and input code?
-
----
-
-Break Down Problem
--
+- etc.
 
 ---
 Break Down Problem
@@ -179,10 +174,7 @@ Break Down Problem
 - These are the steps you write in comments about how you will solve the problem
 - Can sometimes get hints from the interviewer
 - Also lets you know what parts of the problem you're not confident in
-
----
-Solve/Simplify the Problem
--
+- Should be done prior to writing code
 
 ---
 Simplify
@@ -195,11 +187,19 @@ Simplify
 ---
 Refactor
 -
-
----
-Refactor
--
 - Can you check the results?
 - Is there duplicated code?
 - Does it make sense at a glance?
 - Can you improve the performance of your solution?
+
+---
+
+Exercise:
+-
+- Take a user's input for a number, and then print out all numbers from 1 to that number. For any number divisible by 3, print 'fizz'. For any number divisible by 5, print 'buzz'
+
+---
+
+Exercise 2:
+-
+- Write a program that asks the user for a numerical input, 'n', and prints out the next 'n' leap years.
