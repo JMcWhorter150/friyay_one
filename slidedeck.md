@@ -52,7 +52,7 @@ Why do they do this?
 
 ---
 
-Because coding doesn't have a professional certificate, and generally, coders are paid well, so it is a big expense to a company to pay for bad coders. This is a test to weed out bad coders.
+Because coding doesn't have a professional certificate, and coders are paid well, companies have to go through extra tests to make sure people can code.
 
 ---
 
@@ -196,10 +196,10 @@ Refactor
 
 Exercise:
 -
-- Take a user's input for a number, and then print out all numbers from 1 to that number. For any number divisible by 3, print 'fizz'. For any number divisible by 5, print 'buzz'
+- Take a user's input for a number, and then print out all numbers from 1 to that number. For any number divisible by 3, print 'fizz'. For any number divisible by 5, print 'buzz'. Any number divisible by 3 AND 5, print 'fizzbuzz'.
 
 ---
 
 Exercise 2:
 -
-- Write a program that asks the user for a numerical input, 'n', and prints out the next 'n' leap years.
+- Write a program that asks the user for a numerical input, 'n', and prints out the next 'n' numbers of the fibonacci sequence. (1, 1, 2, 3, 5, 8, 13, 21, 34...)
