@@ -81,10 +81,14 @@ This is a special feature of Object Oriented Programming. It lets programmers cr
 
 ---
 
-Whiteboarding Question
+Whiteboarding Questions
 -
 
 ---
+
+Write a function called **has_same_digit_frequency** that accepts two lists and returns whether they have the same frequency of digits. So has_same_digit_frequency([1, 2, 3, 4], [4, 3, 2, 1]) should return True.
+
+___
 
 Write a function called **most_characters** that accepts a string, and return the character that appears the most.
 So most_characters("abcda") should return "a".
