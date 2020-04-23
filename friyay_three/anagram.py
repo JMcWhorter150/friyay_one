@@ -10,7 +10,7 @@ def anagram(str1, str2):
     # since strings are same length, doesn't matter which str I use here
     for index in range(len(str1)):
         character1 = str1[index]
-        character2 = str2[index]
+        character2 =  str2[index]
 
         # if dictionary contains character, add 1 to current count, else set count at 1
         if strCount1.get(character1, False):

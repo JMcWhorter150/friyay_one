@@ -25,10 +25,14 @@ ___
 Write a function called **anagram** that accepts two strings and return True if they are anagrams and False if they aren't. anagram('listen', 'silent') should return True. anagram('cat', 'axe') should return False.
 
 ___
-
-![](anagram.png)
+Part 1: Solution
+![](anagram1.png)
 
 ___
+Part 2: Solution
+![](anagram2.png)
+
+---
 
 Big O Notation
 --
@@ -91,6 +95,7 @@ It's like trying to guess a password. If a password is 10 characters long, and y
 
 ---
 Comparing Big O:
+--
 
 ![](how_O_relates.png)
 
@@ -99,3 +104,4 @@ Extra Resources:
 --
 
 https://skerritt.blog/big-o/
+https://towardsdatascience.com/understanding-time-complexity-with-python-examples-2bda6e8158a7
