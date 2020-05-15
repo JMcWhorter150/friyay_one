@@ -12,10 +12,10 @@ function bubbleSort(arr) {
             } else {
                 // if prev greater, swap current with previous
                 let temp = current;
-                current = previous;
-                previous = temp;
+                arr[j] = previous;
+                arr[j-1] = temp;
                 // fancy version es6+
-                // [current, previous] = [previous, current]
+                // [arr[j], arr[j-1]] = [arr[j-1], arr[j]]
             }
         }
     }

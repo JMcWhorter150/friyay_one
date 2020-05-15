@@ -17,8 +17,16 @@ function removeDuplicates(arr) {
 
 function removeDuplicates2(arr) {
     const arrObj = {}
+    const newArr = [];
     arr.forEach(function (item) {
-        arrObj[item] = true;
+        if (!arrObj[item]) {
+            newArr.push(item);
+        } else {
+            arrObj[item] = true;
+        }
     })
-    return Object.keys(arrObj);
+    return newArr;
 }
+
+// console.log(removeDuplicates([1,2,3,4,4,4,5,6,6,7]));
+console.log(removeDuplicates2([1, 2, 3, 4, 4, 4, 5, 6, 6, 7]));

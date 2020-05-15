@@ -1,94 +1,166 @@
 ---
-marp: true
+marp: false
 theme: uncover
 class: invert
 ---
 
-Friyay2
+Friyay7
 --
 
 ---
 
-Technical Interview Parts
--
-1. Basic knowledge questions
-2. Whiteboarding
-3. Questions for interviewer
+Give me an example of a
+time when you motivated
+others.
+--
 
 ---
 
-Technical Interview Parts
--
-
-**1. Basic knowledge questions**
-
-2. Whiteboarding
-3. Questions for interviewer
-
----
-
-What is the difference between = and ==?
--
+Describe a time when you
+were in charge of a
+project? What worked?
+What would you do
+differently?
+--
 
 ---
 
-= is the assignment operator. == is the equality comparison operator.
+Describe a time when you
+had a conflict with
+someone at work.
+--
 
 ---
 
-What's the difference between lists and dictionaries?
--
+Describe a situation in
+which you found a creative
+way to overcome an
+obstacle.
+--
 
 ---
 
-Lists are a way of storing data in a particular order. Dictionaries are an unordered way of storing data.
+Tell me about a time you
+had a setback at work.
+--
 
 ---
 
-What is a function?
--
+Tell me about a time that
+you went above and
+beyond the call of duty to
+get things done.
+--
 
 ---
 
-A function is a block of organized, reusable code that is used to perform a single, related action.
+Tell me about your
+proudest professional
+accomplishment.
+--
 
 ---
 
-What does 'break' do?
--
+STAR Method
+
+S - ituation
+
+T - ask
+
+A - ction
+
+R - esult
+
+https://www.thebalancecareers.com/
+what-is-the-star-interview-response-t
+echnique-2061629
 
 ---
 
-The break statement terminates the current loop and resumes execution at the next unindented statement
+Part Two
+--
 
 ---
 
-What is the difference between 'and' and 'or'?
--
+Talk about a time when
+your team members had to
+compromise. What was
+the result?
+--
+
+Theme: Teamwork
 
 ---
 
-"and" and "or" combine boolean values into a single boolean. If any boolean is False, "and" returns false. If any boolean is True, "or" returns True. "and" is the false-hunter. "or" is the true-hunter.
+What is the most difficult
+part of being a leader for
+you? What do you do about
+that?
+--
+
+Theme: Leadership
 
 ---
 
-What is inheritance?
--
+Can you tell me how you
+communicate with
+someone who doesn’t like
+you?
+--
+
+Theme: Handling Conflict
 
 ---
 
-This is a special feature of Object Oriented Programming. It lets programmers create new classes that share some of the attributes of existing classes. This lets us build on previous work without reinventing the wheel.
+Tell me about a problem
+you solved in a unique
+way.
+--
+
+Theme: Solving Problems
 
 ---
 
-Whiteboarding Questions
--
+Tell me about a time you
+failed.
+--
+
+Theme: Handling Failure
 
 ---
 
-Write a function called **has_same_digit_frequency** that accepts two lists and returns whether they have the same frequency of digits. So has_same_digit_frequency([1, 2, 3, 4], [4, 3, 2, 1]) should return True.
+Give me an example of a
+time you managed
+numerous responsibilities.
+How did you handle that?
+--
 
-___
+Theme: Work Ethic
 
-Write a function called **most_characters** that accepts a string, and return the character that appears the most.
-So most_characters("abcda") should return "a".
+---
+
+Describe a success you’re
+proud of.
+--
+
+Theme: Accomplishments
+
+---
+
+Exercises!
+--
+
+---
+
+Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist.
+
+Example: [-3,-2,-1,0,3,4,4,5] = [-3, 3]
+
+---
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+Input: ["flower","flow","flight"]
+Output: "fl"
